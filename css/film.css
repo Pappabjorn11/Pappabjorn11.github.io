@@ -1,0 +1,93 @@
+header {
+    margin-top: 100px;
+    margin-bottom: 335px;
+    text-align: center;
+}
+#banner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 813px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    border: 6px solid #000;
+    border-radius: 15px;
+}
+h1 {
+    text-align:center;
+    font-size: 1.7em;
+    font-family: "Verdana", Arial, sans-serif;
+    color: #FFD700;
+    background-color: transparent;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+
+}
+section {
+    background-color: #FFF;
+    color: transparent;
+}
+
+body {
+    text-align: center;
+    background-color: #7F837F;
+    color: transparent;
+}
+h2 {
+    background-color: #000000;
+    color: #FFD700;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 1.3em;
+}
+p {
+    background-color: #FFF;
+    color: #000000;
+    font-family: "Verdana", Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+div.tabell{
+    display: table;
+    background-color: #FFF;
+    color: transparent;
+}
+div.tabellRad {
+    display: table-row;
+}
+
+section.vanster{
+    display: table-cell;
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+}
+section.mitt{
+    display: table-cell;
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+}
+section.hoger{
+    display: table-cell;
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
